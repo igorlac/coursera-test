@@ -1,0 +1,151 @@
+*{
+	box-sizing: border-box;
+}
+.row{
+	width: 100%;
+}
+@media (min-width: 992px){
+	.col-dk-1, .col-dk-2, .col-dk-3, .col-dk-4, .col-dk-5, .col-dk-6, .col-dk-7, .col-dk-8, .col-dk-9, .col-dk-10, .col-dk-11, .col-dk-12{
+		float: left;
+		border: 5px solid black;
+		margin-bottom: 20px;
+	}
+	.col-dk-1{
+		width: 8.33%;
+	}
+	.col-dk-2{
+		width: 16.66%;
+	}
+	.col-dk-3{
+		width: 25%;
+	}
+	.col-dk-4{
+		width: 33.33%;
+	}
+	.col-dk-5{
+		width: 41.66%;
+	}
+	.col-dk-6{
+		width: 50%;
+	}
+	.col-dk-7{
+		width: 58.33%;
+	}
+	.col-dk-8{
+		width: 66.66%;
+	}
+	.col-dk-9{
+		width: 75%;
+	}
+	.col-dk-10{
+		width: 83.33%;
+	}
+	.col-dk-11{
+		width: 91.66%;
+	}
+	.col-dk-12{
+		width: 100%;
+	}
+}
+@media (min-width: 768px) and (max-width: 991px){
+	.col-tb-1, .col-tb-2, .col-tb-3, .col-tb-4, .col-tb-5, .col-tb-6, .col-tb-7, .col-tb-8, .col-tb-9, .col-tb-10, .col-tb-11, .col-tb-12{
+		float: left;
+		border: 5px solid black;
+		margin-bottom: 20px;
+	}
+	.col-tb-1{
+		width: 8.33%;
+	}
+	.col-tb-2{
+		width: 16.66%;
+	}
+	.col-tb-3{
+		width: 25%;
+	}
+	.col-tb-4{
+		width: 33.33%;
+	}
+	.col-tb-5{
+		width: 41.66%;
+	}
+	.col-tb-6{
+		width: 50%;
+	}
+	.col-tb-7{
+		width: 58.33%;
+	}
+	.col-tb-8{
+		width: 66.66%;
+	}
+	.col-tb-9{
+		width: 75%;
+	}
+	.col-tb-10{
+		width: 83.33%;
+	}
+	.col-tb-11{
+		width: 91.66%;
+	}
+	.col-tb-12{
+		width: 100%;
+	}
+}
+@media (max-width: 767px){
+	.col-mp-1, .col-mp-2, .col-mp-3, .col-mp-4, .col-mp-5, .col-mp-6, .col-mp-7, .col-mp-8, .col-mp-9, .col-mp-10, .col-mp-11, .col-mp-12{
+		float: left;
+		border: 5px solid black;
+		margin-bottom: 10px;
+	}
+	.col-mp-1{
+		width: 8.33%;
+	}
+	.col-mp-2{
+		width: 16.66%;
+	}
+	.col-mp-3{
+		width: 25%;
+	}
+	.col-mp-4{
+		width: 33.33%;
+	}
+	.col-mp-5{
+		width: 41.66%;
+	}
+	.col-mp-6{
+		width: 50%;
+	}
+	.col-mp-7{
+		width: 58.33%;
+	}
+	.col-mp-8{
+		width: 66.66%;
+	}
+	.col-mp-9{
+		width: 75%;
+	}
+	.col-mp-10{
+		width: 83.33%;
+	}
+	.col-mp-11{
+		width: 91.66%;
+	}
+	.col-mp-12{
+		width: 100%;
+	}
+}
+body{
+	font-size: 12px;
+	font-family: Arial, sans-serif;
+}
+p.title{
+	border: 5px solid darkred;
+	text-align: center;
+	float: right;
+}
+p.text{
+	clear: both;
+	font-style: italic;
+}
+h1{
+	text-align: center;
+}
